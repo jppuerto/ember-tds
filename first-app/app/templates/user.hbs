@@ -1,0 +1,12 @@
+<h1>User</h1>
+Nom : {{model.name}}
+{{#link-to "user.update" class="btn btn-default"}}Modification{{/link-to}}
+
+<h2>Skills</h2>
+<ul class="list-group">
+  {{#each model.skills as |skill|}}
+    <li class="list-group-item">{{skill}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}

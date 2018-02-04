@@ -1,0 +1,13 @@
+{{textarea value=model.content class="form-control"}}
+<div class="alert alert-info">
+
+{{model.size}}  caracteres restants
+</div>
+{{#if model.alertVisible}}
+<div class="alert {{model.colorinfo}}">
+{{model.info}}
+</div>
+{{/if}}
+<button {{action "save" model}} class="btn btn-primary">Enregistrer</button>
+<button {{action "clear" model}} class="btn btn-error">Effacer</button>
+
