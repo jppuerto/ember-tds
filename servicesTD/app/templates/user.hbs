@@ -1,0 +1,12 @@
+<ul class="list-group">
+  <li class="list-group-active">{{plural model.countActive}}</li>
+  {{#each model.services as |service|}}
+    <li {{action "toggleActive" service}}></li>
+    <li class="list-group-item {{if service.active 'active' ''}}" {{ action "toggleActive" service}}>
+      {{service.name}} <span>{{format-currency service.price}} </span>
+    </li>
+  {{/each}}
+</ul>
+total : {{model.sumActive}}
+salut
+{{outlet}}
