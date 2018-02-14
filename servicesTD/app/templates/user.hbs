@@ -8,5 +8,14 @@
   {{/each}}
 </ul>
 total : {{model.sumActive}}
-salut
+€
+<br>
+
+{{input value=model.codepromo class="form-control" placeholder='Entrez votre code promo '}}
+
+{{#if model.isRemise}}
+  Remise : {{ model.sumRemise }}
+  <br>
+  Total avec remise : {{ model.sumActiveRemise}}
+{{/if}}
 {{outlet}}
