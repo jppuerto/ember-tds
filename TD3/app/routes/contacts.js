@@ -13,7 +13,9 @@ const Contacts=Object.extend({
         return contact.get('nom').includes(filter);
       });
   return all;
-  })
+  }),
+  deleteds:computed.filterBy('datas','isDeleted',true),
+  deletedsCount:computed.alias('deleteds.length')
 });
 
 export default Route.extend({
@@ -24,6 +26,10 @@ export default Route.extend({
   actions:{
     delete:function (contact) {
       contact.deleteRecord();
+    },
+
+    cancelDeletion:function (deleteds) {
+      deleteds.forEach((contact)=>{contact.rollbackAttributes();});
     }
 
   }

@@ -1,4 +1,8 @@
 {{#link-to "contacts.add" class="btn btn-dark"}}ajouter contact{{/link-to}}
+{{#if model.deletedsCount}}
+  <button class="btn btn-light" {{action "cancelDeletion" model.deleteds}}>Annuler delete ({{model.deletedsCount}})
+  </button>
+{{/if}}
 {{input value=model.filter class="form-control"}}
 <div class="list-group">
   {{#each model.contacts as |contact|}}
@@ -9,6 +13,9 @@
         </div>
         <div class="col">
          <button {{action "delete" contact}} class="btn btn-sm btn-danger">X</button>
+        </div>
+        <div class="col">
+          <button {{action "update" contact}} class="btn btn-dark">Update</button>
         </div>
       </div>
     </div>

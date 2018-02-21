@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47d94be-72cf-43ea-bef5-202bd4935938" name="Default" comment="fin de l'implémentation des deux zone d'items avec les 4 boutons pour transferer les items">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.ember-cli" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/.watchmanconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/components/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/controllers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/helpers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/models/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/resolver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/router.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/routes/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/styles/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/templates/application.hbs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/app/templates/components/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/config/environment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/config/targets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/ember-cli-build.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/testem.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/tests/helpers/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/tests/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/tests/integration/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/tests/test-helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/tests/unit/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TD3/vendor/.gitkeep" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/broccoli_merge_trees-input_base_path-G94Id3YL.tmp/0/assets/tests.js" afterPath="$PROJECT_DIR$/stockTD/tmp/broccoli_merge_trees-input_base_path-G94Id3YL.tmp/0/assets/tests.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/broccoli_merge_trees-output_path-b5bONT9m.tmp/addon-tree-output/modules/ember-data/-private.js" afterPath="$PROJECT_DIR$/stockTD/tmp/broccoli_merge_trees-output_path-b5bONT9m.tmp/addon-tree-output/modules/ember-data/-private.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/broccoli_persistent_filterbabel__babel_lint_treeapp-input_base_path-kcls2CbD.tmp/stock-td/tests/app.lint-test.js" afterPath="$PROJECT_DIR$/stockTD/tmp/broccoli_persistent_filterbabel__babel_lint_treeapp-input_base_path-kcls2CbD.tmp/stock-td/tests/app.lint-test.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/broccoli_persistent_filtereslint_validation_filter-output_path-DsgQBiIs.tmp/routes/user.lint-test.js" afterPath="$PROJECT_DIR$/stockTD/tmp/broccoli_persistent_filtereslint_validation_filter-output_path-DsgQBiIs.tmp/routes/user.lint-test.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/funnel-input_base_path-Y5G301uh.tmp/addon-tree-output/modules/ember-data/-private.js" afterPath="$PROJECT_DIR$/stockTD/tmp/funnel-input_base_path-Y5G301uh.tmp/addon-tree-output/modules/ember-data/-private.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/funnel-output_path-ifYYP6CL.tmp/stock-td/tests/app.lint-test.js" afterPath="$PROJECT_DIR$/stockTD/tmp/funnel-output_path-ifYYP6CL.tmp/stock-td/tests/app.lint-test.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/simple_concat_concat-input_base_path-42miVkFj.tmp/addon-tree-output/modules/ember-data/-private.js" afterPath="$PROJECT_DIR$/stockTD/tmp/simple_concat_concat-input_base_path-42miVkFj.tmp/addon-tree-output/modules/ember-data/-private.js" />
-      <change beforePath="$PROJECT_DIR$/stockTD/tmp/simple_concat_concat-output_path-Bimj5tu1.tmp/app.lint-test.js" afterPath="$PROJECT_DIR$/stockTD/tmp/simple_concat_concat-output_path-Bimj5tu1.tmp/app.lint-test.js" />
+      <change beforePath="$PROJECT_DIR$/TD3/app/routes/contacts.js" afterPath="$PROJECT_DIR$/TD3/app/routes/contacts.js" />
+      <change beforePath="$PROJECT_DIR$/TD3/app/templates/contacts.hbs" afterPath="$PROJECT_DIR$/TD3/app/templates/contacts.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,8 +41,8 @@
       <file leaf-file-name="contacts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TD3/app/routes/contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -111,9 +73,21 @@
       <file leaf-file-name="contacts.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TD3/app/templates/contacts.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TD3/app/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,8 +161,8 @@
         <option value="$PROJECT_DIR$/TD3/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/TD3/app/templates/contacts/add.hbs" />
         <option value="$PROJECT_DIR$/TD3/app/routes/contacts/add.js" />
-        <option value="$PROJECT_DIR$/TD3/app/templates/contacts.hbs" />
         <option value="$PROJECT_DIR$/TD3/app/routes/contacts.js" />
+        <option value="$PROJECT_DIR$/TD3/app/templates/contacts.hbs" />
       </list>
     </option>
   </component>
@@ -347,7 +321,7 @@
       <workItem from="1517933956763" duration="430000" />
       <workItem from="1518609474512" duration="3939000" />
       <workItem from="1518614632762" duration="883000" />
-      <workItem from="1519214087405" duration="13771000" />
+      <workItem from="1519214087405" duration="15562000" />
     </task>
     <task id="LOCAL-00001" summary="fin de l'implémentation des deux zone d'items avec les 4 boutons pour transferer les items">
       <created>1519220167306</created>
@@ -356,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519220167306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Debut de la mise a jour d'un contact de la liste. Le reste du formulaire fonctionne.">
+      <created>1519232569943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519232569943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37204000" />
+    <option name="totallyTimeSpent" value="38995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -393,7 +374,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fin de l'implémentation des deux zone d'items avec les 4 boutons pour transferer les items" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin de l'implémentation des deux zone d'items avec les 4 boutons pour transferer les items" />
+    <MESSAGE value="Debut de la mise a jour d'un contact de la liste. Le reste du formulaire fonctionne." />
+    <option name="LAST_COMMIT_MESSAGE" value="Debut de la mise a jour d'un contact de la liste. Le reste du formulaire fonctionne." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,14 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/servicesTD/app/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servicesTD/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -714,40 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TD3/app/serializers/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noteAppli/app/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TD3/app/models/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TD3/app/routes/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TD3/app/routes/contacts/add.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -766,6 +706,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TD3/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noteAppli/app/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TD3/app/serializers/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TD3/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -774,10 +740,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TD3/app/models/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TD3/app/routes/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TD3/app/templates/contacts.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
