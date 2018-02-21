@@ -1,25 +1,28 @@
 import Route from '@ember/routing/route';
-import EmberObject, { computed } from '@ember/object';
+import EmberObject from '@ember/object';
+import Ember from 'ember';
 
-const Listes=EmberObject.extend({
-  includedItems:[],
-  dispoItemsIds_:[],
-  includedItemsIds_:[],
-  dispoItems_:Ember.computed('dispoItemsIds_.[]',function(){
-    return this.get('dispoItemsIds_').map((id)=>{
+const Listes = EmberObject.extend({
+  dispoItems : [],
+  includedItems : [],
+  dispoItemsIds_ : [],
+  includedItemsIds_ : [],
+  dispoItems_ : Ember.computed('dispoItemsIds_.[]', function () {
+    return this.get('dispoItemsIds_').map((id) => {
       return this.get('dispoItems').findBy('id',id);
-    });
+    })
   }),
-  includedItems_:[],
-
+  includedItems_ : Ember.computed('includedItemsIds_.[]', function () {
+    return this.get('includedItemsIds_').map((id) => {
+      return this.get('includedItems').findBy('id',id);
+    })
+  }),
 });
 
 export default Route.extend({
-  model() {
+  model(){
     return Listes.create({
-
-
-      dispoItems: [
+      dispoItems : [
         {
           "id": "1",
           "url": "https://tutorialzine.com/2018/01/what-every-developer-should-know-about-cryptocurrency",
@@ -41,7 +44,7 @@ export default Route.extend({
         {
           "id": "4",
           "url": "https://tutorialzine.com/2017/10/getting-started-with-graphql",
-          "title": "Getting Started With GraphQL ",
+          "title": "Getting Started With GraphQL",
           "image": "https://tutorialzine.com/media/2017/10/getting-started-graphql.png"
         },
         {
@@ -51,7 +54,7 @@ export default Route.extend({
           "image": "https://tutorialzine.com/media/2017/10/9-free-icon-packs.png"
         },
         {
-          "id": "6", // testigherlkgjhrglkhdfgjkdhgjk:fhdglfdhgjk
+          "id": "6",
           "url": "https://tutorialzine.com/2018/01/10-free-programming-books-you-should-read-in-2018",
           "title": "10 Free Programming Books You Should Read in 2018",
           "image": "https://tutorialzine.com/media/2018/01/10-free-programming-books-you-should-read.png"
@@ -65,17 +68,14 @@ export default Route.extend({
       ]
     });
 
-
-    /*actions: {
-      addToIncluded:function(model) {
-
-
-    },
-    clear:function(model){
-
-    },
-    getText:function(model){
-
-    }*/
+  },
+  actions:{
+    addTo:function(source,destination,items){
+      let model = this.modelFor(this.routeName);
+      destination.pushObjects(items);
+      source.removeObjects(items);
+      Ember.set(model,'dispoItemsIds_',[]);
+      Ember.set(model,'includedItemsIds_',[]);
+    }
   }
 });
