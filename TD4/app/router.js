@@ -10,6 +10,9 @@ Router.map(function() {
   this.route('developers', function() {
     this.route('new');
   });
+  this.route('projects', function() {
+    this.route('new');
+  });
 });
 
 export default Router;

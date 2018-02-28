@@ -3,22 +3,4 @@
   <i class="ui plus icon"></i>
   Add new developer
 {{/link-to}}
-<table class="ui single line table">
-  <thead>
-  <tr>
-    <th>Identity</th>
-  </tr>
-  </thead>
-  <tbody>
-  {{#each model as |developer|}}
-    <tr>
-      <td>{{developer.identity}}</td>
-    </tr>
-  {{else}}
-    <tr>
-      <td>Aucun développeur</td>
-    </tr>
-  {{/each}}
-  </tbody>
-</table>
-{{outlet}}
+{{data-table datas=model title='Developer'}}

@@ -1,7 +1,8 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  model(){
-    return this.get('store').findAll('developer');
+  identity:DS.attr('string'),
+  toString(){
+    return this.get('identity');
   }
 });
