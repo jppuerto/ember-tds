@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('projects', function() {
     this.route('new');
   });
+
 });
 
 export default Router;
