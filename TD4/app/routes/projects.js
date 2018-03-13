@@ -6,6 +6,10 @@ export default Route.extend({
   },
 
   actions:{
+    delete(project){
+      project.deleteRecord();
+      project.save();
+    },
     didTransition() {
       Ember.run.next(this,'initDropDown');
     }

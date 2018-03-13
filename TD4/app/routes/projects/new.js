@@ -8,5 +8,19 @@ export default Route.extend({
         developers: this.get('store').findAll('developer')
       }
     );
+  },
+  actions:{
+    save(proj){
+      proj=this.get('store').createRecord('project',JSON.parse(JSON.stringify(proj)));
+      proj.save().then(()=>{
+        this.transitionTo("projects");
+      });
+    },
+    didTransition() {
+      Ember.run.next(this, 'initUI');
+    }
+  },
+  initUI() {
+    Ember.$('.ui.dropdown').dropdown();
   }
 });
