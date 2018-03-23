@@ -1,4 +1,4 @@
-import DS from 'ember-data';
+/*import DS from 'ember-data';
 import { pluralize } from 'ember-inflector';
 
 var Adapater=DS.RESTAdapter.extend({
@@ -33,3 +33,10 @@ var Adapater=DS.RESTAdapter.extend({
 });
 
 export default Adapater;
+*/
+
+import LSAdapter from 'ember-localstorage-adapter';
+
+export default LSAdapter.extend({
+  namespace:'boards'
+});

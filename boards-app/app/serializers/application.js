@@ -1,4 +1,4 @@
-import DS from 'ember-data';
+/*import DS from 'ember-data';
 
 export default DS.JSONSerializer.extend({
   primaryKey: '_id',
@@ -23,3 +23,7 @@ export default DS.JSONSerializer.extend({
     json['_id'] = id;
   }
 });
+*/
+import { LSSerializer } from 'ember-localstorage-adapter';
+
+export default LSSerializer.extend();
