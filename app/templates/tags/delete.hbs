@@ -1,0 +1,6 @@
+{{#message-confirmation uiClass="negative" param=model cancel='cancelDeletion' action='delete'}}
+  Do you want to remove the tag `<b>{{model.name}}</b>` ?
+  {{#if model.tag.length}}
+    <br><b>{{model.name}}</b>
+  {{/if}}
+{{/message-confirmation}}
