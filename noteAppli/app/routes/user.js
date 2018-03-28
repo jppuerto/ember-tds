@@ -8,7 +8,9 @@ const Note=EmberObject.extend({
       this.set('info','Note modifiée');
     return this.get('MAX')-this.get('content').length;
   }),
+
   alertVisible:computed.notEmpty('info'),
+
   colorinfo: computed('size',function(){
     let size=this.get('size');
     let style='alert-info';
@@ -29,6 +31,7 @@ export default Route.extend({
       info:''
     });
   },
+
   actions: {
     save:function(model) {
       model.set('info','Note sauvegardée');

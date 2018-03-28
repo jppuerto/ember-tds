@@ -1,0 +1,62 @@
+<div class="ui segment">Index</div>
+{{outlet}}
+<div class="ui three column divided grid">
+  <div class="row">
+    <div class="column">
+      <p>
+      <h3 class="ui header">Project</h3>
+      <div class="ui basic buttons">
+        {{#link-to "projects" class="ui button"}}
+          <i class="ui eye icon"></i>
+          See All...
+        {{/link-to}}
+        {{#link-to "projects.new" class="ui button"}}
+          <i class="ui plus icon"></i>
+          Add New...
+        {{/link-to}}
+      </div>
+      </p>
+    </div>
+    <div class="column">
+      <p>
+      <h3 class="ui header">Developer</h3>
+        <div class="ui basic buttons">
+          {{#link-to "developers" class="ui button"}}
+            <i class="ui eye icon"></i>
+            See All...
+          {{/link-to}}
+          {{#link-to "developers.new" class="ui button"}}
+              <i class="ui plus icon"></i>
+              Add New...
+          {{/link-to}}
+        </div>
+      </p>
+    </div>
+    <div class="column">
+      <p>
+      <h3 class="ui header">Tag</h3>
+      <div class="ui basic buttons">
+        {{#link-to "tags" class="ui button"}}
+          <i class="ui eye icon"></i>
+          See All...
+        {{/link-to}}
+        {{#link-to "tags.new" class="ui button"}}
+          <i class="ui plus icon"></i>
+          Add New...
+        {{/link-to}}
+      </div>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <p></p>
+    </div>
+    <div class="column">
+      <p></p>
+    </div>
+    <div class="column">
+      <p></p>
+    </div>
+  </div>
+</div>

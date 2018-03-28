@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col">
+    {{multi-select elements=model.dispoItems selectedIds=model.dispoItemsIds_}}
+  </div>
+  <div class="col-1">
+    <button class="btn btn-light btn-block" {{action "addTo" model.dispoItems model.includedItems model.dispoItems_ }}>
+      {{fa-icon "step-forward"}}
+    </button>
+
+    <button class="btn btn-light btn-block" {{action "addTo" model.includedItems model.dispoItems model.includedItems_ }}>
+      {{fa-icon "step-backward"}}
+    </button>
+
+    <button class="btn btn-light btn-block" {{action "addTo" model.dispoItems model.includedItems model.dispoItems }}>
+      {{fa-icon "fast-forward"}}
+    </button>
+
+    <button class="btn btn-light btn-block" {{action "addTo" model.includedItems model.dispoItems
+                                                     model.includedItems }}>
+      {{fa-icon "fast-backward"}}
+    </button>
+  </div>
+
+  <div class="col">
+    {{multi-select elements=model.includedItems selectedIds=model.includedItemsIds_}}
+  </div>
+
+</div>
+{{outlet}}

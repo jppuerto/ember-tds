@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ember-td.iml" filepath="$PROJECT_DIR$/.idea/ember-td.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ember-tds.iml" filepath="$PROJECT_DIR$/.idea/ember-tds.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,40 @@
+<table class="ui single line table">
+  <thead>
+  <tr>
+    <th colspan="2">{{title}}</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each datas as |object|}}
+    <tr>
+      <td>{{object}}</td>
+      <td><a class="ui tiny button" {{action "setDeveloperToDelete" object}}>
+        <i class="ui remove icon"></i>
+      </a>
+
+      </td>
+    </tr>
+  {{else}}
+    <tr>
+      <td colspan="2">No {{title}} to display</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+{{#bs-modal onSubmit=(action "deleteDeveloper") open=developerToDelete as |modal|}}
+  {{#modal.header}}
+    Suppression
+  {{/modal.header}}
+  {{#modal.body}}
+    Etes vous sûr de supprimer {{developerToDelete.identity}} ?
+  {{/modal.body}}
+  {{#modal.footer}}
+    {{#bs-button onClick=(action "cancelDeletingDeveloper") type="danger"}}
+      Non
+    {{/bs-button}}
+    {{#bs-button onClick=(action modal.submit) type="success"}}
+      Oui
+    {{/bs-button}}
+  {{/modal.footer}}
+{{/bs-modal}}
+{{outlet}}
