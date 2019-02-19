@@ -1,5 +1,5 @@
 # ember-tds
-Tds de Jérémy Puertolas et Théo Quessandier
+Tds de Jérémy P et Théo Q
 
 Il comprend les TD 1 à 5 du module clients riches avec Monsieur Héron.
 
